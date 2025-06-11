@@ -5,9 +5,11 @@ seaborn
 scikit-learn
 xgboost
 shap
-pickle
+joblib
 streamlit 
 gradio
 jupyterlab
 pyod
 missingno
+voila 
+ipywidgets
