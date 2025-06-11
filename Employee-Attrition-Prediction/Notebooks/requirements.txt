@@ -13,3 +13,4 @@ pyod
 missingno
 ipywidgets
 voila 
+streamlit
