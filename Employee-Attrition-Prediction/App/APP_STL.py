@@ -80,7 +80,7 @@ def build_input_vector(user_input, means, modes, all_features):
             else:
                 row[feat] = val
         else:
-            # For numeric, use mean; for other, use mode
+            # For numericvalues, using mean for other values , use mode.
             if feat in means:
                 row[feat] = float(means[feat])
             else:
