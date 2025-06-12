@@ -4,9 +4,13 @@ import numpy as np
 import joblib
 
 # Paths (edit if needed)
-RF_MODEL_PATH = r"C:\Users\ishaan.narayan\Desktop\Ishaan's Workspace\Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_rf_model.pkl"
-XGB_MODEL_PATH = r"C:\Users\ishaan.narayan\Desktop\Ishaan's Workspace\Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_model_XGB.pkl"
-DATA_PATH = r"C:\Users\ishaan.narayan\Desktop\Ishaan's Workspace\Intern_ML-DL-Gen\Employee-Attrition-Prediction\Data\cleaned_employee_data.csv"
+# RF_MODEL_PATH = r"C:\Users\ishaan.narayan\Desktop\Ishaan's Workspace\Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_rf_model.pkl"
+# XGB_MODEL_PATH = r"C:\Users\ishaan.narayan\Desktop\Ishaan's Workspace\Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_model_XGB.pkl"
+# DATA_PATH = r"C:\Users\ishaan.narayan\Desktop\Ishaan's Workspace\Intern_ML-DL-Gen\Employee-Attrition-Prediction\Data\cleaned_employee_data.csv"
+
+RF_MODEL_PATH = r"Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_rf_model.pkl"
+XGB_MODEL_PATH = r"Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_model_XGB.pkl"
+DATA_PATH = r"Intern_ML-DL-Gen\Employee-Attrition-Prediction\Data\cleaned_employee_data.csv"
 
 @st.cache_resource
 def load_all():
