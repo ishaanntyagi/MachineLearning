@@ -94,7 +94,7 @@ if submitted:
     st.success(f"Prediction: {'Yes' if pred else 'No'}")
     with st.expander("Show all features used for prediction"):
         st.write(input_df)
-
+        
 st.caption("Auto-filling the remaining 29 features with mean/mode values. All 44 features are used for prediction as in the training data.")
 
 
