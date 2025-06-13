@@ -11,7 +11,7 @@ import joblib
 RF_MODEL_PATH = r"Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_rf_model.pkl"
 XGB_MODEL_PATH = r"Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_model_XGB.pkl"
 DATA_PATH = r"Intern_ML-DL-Gen\Employee-Attrition-Prediction\Data\cleaned_employee_data.csv"
-
+ 
 @st.cache_resource
 def load_all():
     df = pd.read_csv(DATA_PATH)
