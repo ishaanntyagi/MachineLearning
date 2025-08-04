@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
+
 # Paths
 # RF_MODEL_PATH = r"C:\Users\ishaan.narayan\Desktop\Ishaan's Workspace\Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_rf_model.pkl"
 # XGB_MODEL_PATH = r"C:\Users\ishaan.narayan\Desktop\Ishaan's Workspace\Intern_ML-DL-Gen\Employee-Attrition-Prediction\Models\best_model_XGB.pkl"
